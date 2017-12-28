@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="aritraban.com.task5.quiz3">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="toqfinal"
+        android:text="Next" />
+    <TextView
+        android:id="@+id/q"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Which of the following is not a LeapYear ?"
+        />
+    <ToggleButton
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q"
+        android:layout_alignParentLeft="true"
+        android:textOff="2000"
+        android:textOn="2000"/>
+    <ToggleButton
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q"
+        android:layout_alignParentRight="true"
+        android:textOff="2100"
+        android:textOn="2100"/>
+    <ToggleButton
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b1"
+        android:layout_alignParentLeft="true"
+        android:textOff="2004"
+        android:textOn="2004"/>
+    <ToggleButton
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b2"
+        android:layout_alignParentRight="true"
+        android:textOff="1916"
+        android:textOn="1916"/>
+</RelativeLayout>

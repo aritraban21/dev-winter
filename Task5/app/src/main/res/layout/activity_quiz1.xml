@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="aritraban.com.task5.quiz1">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="toq2"
+        android:text="Next"
+         />
+    <TextView
+        android:id="@+id/q"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Who wrote Harry Potter ?"
+        />
+    <ToggleButton
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q"
+        android:layout_alignParentLeft="true"
+        android:textOff="JK Rowling"
+        android:textOn="JK Rowling"/>
+    <ToggleButton
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q"
+        android:layout_alignParentRight="true"
+        android:textOff="Jeffrey Archer"
+        android:textOn="Jeffrey Archer"/>
+    <ToggleButton
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b1"
+        android:layout_alignParentLeft="true"
+        android:textOff="CS lewis"
+        android:textOn="cs lewis"/>
+    <ToggleButton
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b2"
+        android:layout_alignParentRight="true"
+        android:textOff="Dan brown"
+        android:textOn="Dan Brown"/>
+</RelativeLayout>
